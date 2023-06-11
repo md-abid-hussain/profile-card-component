@@ -1,5 +1,7 @@
 
-const About = ({ data }) => {
+import { User } from "../assets/data/data";
+const About = (prop: any) => {
+    const data: User = prop.data
     const { name, age, location, followers, likes, photos } = data;
     console.log(name)
     return (
