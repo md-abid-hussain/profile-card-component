@@ -7,4 +7,14 @@ const data = {
     photos: "1.4K"
 }
 
+export interface User {
+    name: string,
+    age: number,
+    location: string,
+    followers: string,
+    likes: string,
+    photos: string
+}
+
+
 export default data;
