@@ -1,6 +1,8 @@
+import Profile from "./components/Profile"
 function App() {
   return (
-    <main>
+    <main className="min-h-screen grid place-content-center ">
+      <Profile />
     </main>
   )
 }
